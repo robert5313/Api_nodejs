@@ -25,3 +25,8 @@ const express = require('express');
     We are saying to send a response with a header type of ‘200.’ This number is the normal response which is sent in an http header when a successful response is sent to the client
     We are sending the string 'Hello World' which is in the index.js file code.
     Listen function to make our server application listen to client requests on port no 8080.
+
+Handling GET Requests in Node.js
+Making a GET Request to get the data from another site is relatively very simple in Node.js
+Get request in the node, we need to first have the request module installed
+   npm install request
