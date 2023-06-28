@@ -30,3 +30,39 @@ Handling GET Requests in Node.js
 Making a GET Request to get the data from another site is relatively very simple in Node.js
 Get request in the node, we need to first have the request module installed
    npm install request
+
+
+##Types Of Modules in Node
+    Built In Modules: These are modules included in Node by default, so you can use them without installation. You just need to import them and get started.
+    External Modules: These are modules created by other developers which are not included by default. So you need to install them first before using them.
+
+
+The OS Module
+
+The OS Module (as its name implies) provides you methods/functions with which you can get information about your Operating System.
+
+    const os = require('os');
+
+
+you can check this link for more update on whats nodejs 
+  https://www.freecodecamp.org/news/get-started-with-nodejs/
+
+Node.js as a File Server
+
+The Node.js file system module allows you to work with the file system on your computer.
+
+To include the File System module, use the require() method:
+
+Common use for the File System module:
+
+    Read files
+    Create files
+    Update files
+    Delete files
+    Rename files
+
+Read Files
+
+The fs.readFile() method is used to read files on your computer.
+
+Assume we have the following HTML file (located in the same folder as Node.js)
