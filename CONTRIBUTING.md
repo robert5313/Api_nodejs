@@ -46,7 +46,7 @@ We appreciate your contributions via pull requests. Follow these guidelines when
 4. Test your changes to ensure they don't introduce any regressions.
 5. Commit your changes with descriptive commit messages.
 6. Push your branch to your forked repository.
-7. Open a pull request on the `main` branch of the original repository.
+7. Open a pull request on the `node` branch of the original repository.
 
 ## Code Style Guidelines
 We strive to maintain a consistent code style within the Api_nodejs project. Please adhere to the following guidelines when writing code:
