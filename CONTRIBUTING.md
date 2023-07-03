@@ -17,7 +17,7 @@ To get started with contributing to Api_nodejs, follow these steps:
 2. Clone your forked repository to your local machine.
 3. Install the required dependencies
    ## Install Nodejs
-   ## before starting ensure you have the correct vision of nodejs that's 16+
+   ## Before starting ensure you have the correct vision of nodejs that's 16+
    ## Starting an application for nodejs
        npm init-y = work with the default dependencies provided
        npm install = to initials the node_modules
@@ -59,14 +59,6 @@ If you have any questions or need assistance, you can reach out to us via the fo
 - Join our community Slack/Discord channel: [slack-channel](# Contributing to Api_nodejs
 
 Thank you for considering contributing to the Api_nodejs project! We welcome your contributions to make this project better.
-
-## Table of Contents
-- [Getting Started](#getting-started)
-- [Submitting Issues](#submitting-issues)
-- [Submitting Pull Requests](#submitting-pull-requests)
-- [Code Style Guidelines](#code-style-guidelines)
-- [Communication](#communication)
-- [License](#license)
 
 ## Getting Started
 To get started with contributing to Api_nodejs, follow these steps:
