@@ -29,7 +29,7 @@ To get started with contributing to Api_nodejs, follow these steps:
 6. Test your changes thoroughly.
 7. Commit your changes with descriptive commit messages.
 8. Push your changes to your forked repository.
-9. Submit a pull request to the `main` branch of the original repository.
+9. Submit a pull request to the `node` branch of the original repository.
 
 ## Submitting Issues
 If you encounter any issues with the Api_nodejs project or have suggestions for improvements, please follow these steps to submit an issue:
@@ -111,8 +111,4 @@ If you have any questions or need assistance, you can reach out to us via the fo
 The Api_nodejs project is licensed under the [MIT License](https://opensource.org/licenses/MIT). By contributing to this project, you agree to license your contributions under the same license.
 
 We appreciate your interest and contributions to the Api_nodejs project!)
-
-## License
-The Api_nodejs project is licensed under the [MIT License](https://opensource.org/licenses/MIT). By contributing to this project, you agree to license your contributions under the same license.
-
-We appreciate your interest and contributions to the Api_nodejs project!
+Welcome to open-source project
