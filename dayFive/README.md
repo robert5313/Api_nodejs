@@ -17,3 +17,21 @@ To address the limitations of callbacks, promises were introduced. Promises prov
 Furthermore, the introduction of the async/await syntax in JavaScript simplifies asynchronous programming even further. The async/await keywords provide a more synchronous-like coding style while dealing with asynchronous operations. By marking a function as async, it allows the use of the await keyword inside the function body to pause the execution until a promise is resolved or rejected. This eliminates the need for explicit promise chaining and makes asynchronous code easier to read and write.
 
 In summary, asynchronous methods in JavaScript take a completion function callback as a parameter, and they are preferred over synchronous methods because they do not block program execution. Asynchronous programming allows programs to continue executing other tasks while waiting for the completion of time-consuming operations. Techniques such as callbacks, promises, and async/await are used to handle asynchronous operations in JavaScript efficiently.
+
+
+### Whats is an event loop?
+
+The Node.js event loop is a mechanism that allows Node.js to perform non-blocking I/O operations despite running on a single thread. It is responsible for handling all I/O operations and executing callbacks.
+
+The event loop continuously checks for new events in the event queue and processes them one by one. When an I/O operation is initiated, it is added to the event queue along with a callback function. Once the operation is completed, the callback function is pushed to the event queue and executed in the next iteration of the event loop.
+
+This mechanism allows Node.js to handle a large number of concurrent connections without blocking the execution of other code. However, it does require careful management of callbacks to avoid callback hell and other issues.
+
+example code
+const fs = require('fs');
+
+fs.readFile('/', (err, data) => {
+  if (err) throw err;
+  console.log(data);
+});
+In this example, fs.readFile initiates an I/O operation to read a file. Once the operation is complete, the callback function is pushed to the event queue and executed by the event loop.
