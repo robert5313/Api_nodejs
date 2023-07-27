@@ -1,24 +1,22 @@
-require('dotenv').config();
 const express = require('express');
 const mongoose = require('mongoose');
-const userRoutes = require('./Routes/User-Routes');
+const taskRoutes = require("./Routes/task-routes")
+require('dotenv').config()
 
 const logger = require('morgan')
-const app = express();
+const app = express()
 
 app.use(logger('dev'))
 app.use(express.json())
-
-const port = process.env.PORT || 3000;
 
 app.use((req, res, next) => {
     console.log(req.path, req.method)
     next()
 })
 
-app.use('/api/user', userRoutes)
+app.use('/api/taskList', taskRoutes)
 
-mongoose.connect(process.env.MONGODB_URI)
+mongoose.connect(process.env.MONGO_URI)
     .then(  () => {
         app.listen(process.env.PORT, () => {
             console.log(`Database connected successfully`, process.env.PORT)
