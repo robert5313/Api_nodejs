@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const User = require('./models/UserModel');
 
 
-mongoose.connect("mongodb+srv://rkiptoo5244:Userbase@cluster0.63djasb.mongodb.net/userbase?retryWrites=true&w=majority")
+mongoose.connect(MONGO_URI)
 .then(() => {
     console.log('Database connection established');
 }).catch((error) => {
